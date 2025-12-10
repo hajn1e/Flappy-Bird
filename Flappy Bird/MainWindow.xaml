@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Flappy_Bird"
         mc:Ignorable="d"
-        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" 
         Title="Flappy Bird" Height="490" Width="525">
     <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
 
         <Image Height="145" Width="200" Source="Images/clouds.png" Canvas.Left="20" Canvas.Top="10" Tag="cloud"/>
-        <Image Height="145" Width="200" Source="/Images/clouds2.png" Canvas.Left="300" Canvas.Top="96" Tag="cloud"/>
+        <Image Height="145" Width="200" Source="Images/clouds2.png" Canvas.Left="300" Canvas.Top="96" Tag="cloud"/>
 
         <Image Height="390" Width="66" Source="Images/pipeBottom.png" Canvas.Left="107" Canvas.Top="283" Tag="obs1" />
         <Image Height="390" Width="66" Source="Images/pipeTop.png" Canvas.Left="107" Canvas.Top="-254" Tag="obs1" />
