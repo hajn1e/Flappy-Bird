@@ -25,4 +25,5 @@
 
         <Image Stretch="Fill" Height="37" Width="50" Source="Images/flappyBird.png" Canvas.Left="20" Canvas.Top="190" Name="flappyBird"/> 
     </Canvas>
+    
 </Window>

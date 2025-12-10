@@ -77,7 +77,7 @@ namespace Flappy_Bird
             if (e.Key == Key.Space)
             {
                 flappyBird.RenderTransform = new RotateTransform(5, flappyBird.Width/2,flappyBird.Height/2);
-                gravity = 8;
+                gravity = -8;
 
             }
 
@@ -91,7 +91,7 @@ namespace Flappy_Bird
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
             flappyBird.RenderTransform = new RotateTransform(-20, flappyBird.Width / 2, flappyBird.Height / 2);
-            gravity = -8;
+            gravity =  8;
         }
 
         private void StartGame()    
@@ -121,7 +121,7 @@ namespace Flappy_Bird
                 if ((string)x.Tag == "cloud")
                 {
                     Canvas.SetLeft(x, 300+temp);
-                    temp = 800;
+                    temp = 800; 
                 }
 
             }
